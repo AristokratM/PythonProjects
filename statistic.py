@@ -143,6 +143,18 @@ def exluded(lst):
     return ans
 
 
+def fact(n):
+    s = 1
+    for i in range(1, n+1):
+        s *= i
+    return s
+
+
+def comb(n, k):
+    return fact(n)//fact(k)//fact(n-k)
+
+
+
 s = format_input(input())
 lst = list(map(float, s.split(" ")))
 print(mediana(lst))
