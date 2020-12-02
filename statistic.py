@@ -155,14 +155,6 @@ def comb(n, k):
 
 
 
-s = format_input(input())
+s = format_input(input(),",$")
 lst = list(map(float, s.split(" ")))
-print(mediana(lst))
-print(lower_quartil(lst))
-print(upper_quartil(lst))
-print(iqr(lst))
-print(lower_tail(lst))
-print(upper_tail(lst))
-print(lower_not_exclude(lst))
-print(upper_not_exclude(lst))
-print(exluded(lst))
+print(dispersion(lst))
