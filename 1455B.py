@@ -19,7 +19,7 @@ n = int(input())
 while n > 0:
     x = int(input())
     k = ans(x)
-    if f(k) == x + 1:
+    if f(k) != x + 1:
         k += 1
     print(k)
     n -= 1
