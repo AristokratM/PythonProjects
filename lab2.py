@@ -61,18 +61,18 @@ def matrix_print(matrix, headers, columns):
 
 def main():
     start_state = [
+        [1],
         [0],
-        [0],
-        [1]
+        [0]
     ]
     start_matrix = [
-        [0.8, 0.2, 0],
-        [0.2, 0.6, 0.2],
-        [0.5, 0.4, 0.1]
+        [0.7, 0.3, 0],
+        [0.5, 0.4, 0.1],
+        [0.2, 0.3, 0.5]
     ]
+    number_of_days = 3
     headers = ['Sun', 'Rain', 'Fog']
-    # number_of_days = 1_000_000_000_000_000
-    number_of_days = 8
+
     print("Початкова матриця:")
     matrix_print(start_matrix, headers, headers)
     tr_matrix = transposed_matrix(start_matrix)

@@ -155,6 +155,7 @@ def comb(n, k):
 
 
 
-s = format_input(input(),",$")
+s = format_input(input(),",$.")
 lst = list(map(float, s.split(" ")))
-print(dispersion(lst))
+print(average(lst))
+print(dispersion(lst) ** 0.5)
