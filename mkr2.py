@@ -87,21 +87,23 @@ def SP(n1, n2, s1, s2):
 if __name__ == '__main__':
     table = [
         ['X\\Y', 1, 2, 4],
-        [-1, 0.15, 0.2, 0.14],
-        [1, 0.05, 0.1, 0.1],
-        [2, 0.06, 0.15, 0.05]
+        [1, 0.1, 0.2, 0.1],
+        [2, 0.05, 0.15, 0.15],
+        [3, 0.07, 0.13, 0.05]
     ]
+    print(0.1 + 0.2 + 0.1 + 0.05 + 0.15 + 0.15 + 0.07 + 0.13 + 0.05)
+    table1(table)
     list_x = [23.1, 32.8, 31.8, 32.0, 30.4, 24, 39.5, 24.2, 52.5, 37.9, 30.5, 25.1, 12.4, 35.1, 31.5, 21.1, 27.6]
     list_y = [10.5, 16.7, 18.2, 17.0, 16.3, 10.5, 23.1, 12.4, 24.9, 22.8, 14.1, 12.9, 8.8, 17.4, 14.9, 10.5, 16.1]
-    print(XY(list_x, list_y))
-    print(sum(list_x), sum(list_y))
-    print(len(list_x))
-    print(sum(square_list(list_x)), sum(list_x) ** 2 / len(list_x))
-    print(B1(list_x, list_y))
-    # table1(table)
-    print(average(list_y), average(list_x))
-    print(B0(list_x, list_y))
-    print(depresion_otsinka(list_x, list_y))
-    print(Sxx(list_x))
-    print(T0(list_x, list_y))
-    print(SP(15, 17, 0.35, 0.4))
+    # print(XY(list_x, list_y))
+    # print(sum(list_x), sum(list_y))
+    # print(len(list_x))
+    # print(sum(square_list(list_x)), sum(list_x) ** 2 / len(list_x))
+    # print(B1(list_x, list_y))
+    # # table1(table)
+    # print(average(list_y), average(list_x))
+    # print(B0(list_x, list_y))
+    # print(depresion_otsinka(list_x, list_y))
+    # print(Sxx(list_x))
+    # print(T0(list_x, list_y))
+    # print(SP(15, 17, 0.35, 0.4))

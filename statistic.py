@@ -27,6 +27,8 @@ def square_lst(lst):
 
 def dispersion(lst):
     a, b = average(lst)
+    print(sum(square_lst(lst)) )
+    print(a*b)
     return (sum(square_lst(lst)) - a * b) / (len(lst) - 1)
 
 
@@ -155,7 +157,18 @@ def comb(n, k):
 
 
 
-s = format_input(input(),",$.")
-lst = list(map(float, s.split(" ")))
-print(average(lst))
-print(dispersion(lst) ** 0.5)
+# s = format_input(input(),",$.")
+# lst = list(map(float, s.split(" ")))
+# lst = [6, 5.2, 2.1, -0.9, 7.4, 3.5, 5.4, 4.1, 4.6, 2.8, 1.2, 2.7, 0.1, 3.8, 2.9, 4.1, 1.1, 3.7, 6.9, 2.9]
+lst = [8.8, 7.4, 6.4, 4.7, 9.3, 8, 7.5, 4.2, 8.3, 5.9, 9, 7.3, 6.9, 7.8, 9.2, 7.8, 20.9, 9.5, 4.6, 4.0]
+print(sorted_lst(lst))
+print(len(lst))
+print(mediana(lst))
+print(lower_quartil(lst))
+print(upper_quartil(lst))
+print(iqr(lst))
+print(lower_tail(lst))
+print(upper_tail(lst))
+print(lower_not_exclude(lst))
+print(upper_not_exclude(lst))
+print(exluded(lst))
