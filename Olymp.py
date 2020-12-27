@@ -33,4 +33,7 @@ def G():
     print(abs(lst[0]))
 
 
-G()
+import os
+import json
+for key in os.environ:
+    print(key, os.environ[key])
