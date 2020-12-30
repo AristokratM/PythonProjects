@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "amazing-jetty-300200",
+  "private_key_id": "1225c168843e8d863d88a0275230546b6c728aa3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC05AGyuBgNXTy5\narbS3CXRhDBUL/n1g1IBfAGtIVGCHkOQ6QPS5Gnwb8UinYkYuFmol6+fbyF3pJSa\nwuVenr41mj0N+rGZ4SidPNxY9X6TJ15SFwhW/sr9HYTCbHD4GIiacTij/B6/+KqC\nfqo0flZVNvXUDvigQnlr5L27jpj9Xiq2WhZWc+QBKNrizuhnW06kl+ONa7XiwkEp\nH0I1EEejBrsNBhY7Sp1bMzXVtiG6nqAgnUSKhPRUjGjr9lb8T87MNYjpGoSf3201\nxOttxPSZQ2U/9UUFR6sSHFr9AM6QiO9aXxp/5mMtMKMx68zUQctiL+RLSzC9Bxtw\n9c/kbxcfAgMBAAECggEAMQihYTW/51d/z28a8duVMM8ZXqjGpAOd5iMcPTcL5i6X\n+B8B11ftU6yojnKPqDDItQexJpG0S79EPRNZo6V6QAN4S2LKY8ECBmVqAX9CeVcx\nnST7MMHOeoBW7XEBym60ENFiHimImFcquUbmkmYwtta4GmyYfrCmQ1X1DHNiC0PX\njkCzU7HhnfERdu78LSeBzOedOIf93oROSRyYsUqioYHHWeGFG7Jszfrwupw0RwS5\npghL00QMSyQJmFbj7lpvAy9d28m8gD/1CR9aqxct6bLhtWn2EzcekZ984yQrpUGy\nxPLBf/DEpNVZaK+J+qp5rmHosdvSg8Z8udnUfyPjsQKBgQDjZpGxxjfpg5mq/OOo\nRvrChsgpbmmg5kVFziJd1s7C4N1IGsF6RSdOvMJrqxL49O1bj+zQ2s+vS/v4KzIK\nBpBLi7RFTrGtACYIg9Ppl3TBqcH14LIxxfSwDG0Ih998DE6Y0Abzp4U15+3kgShi\n9iiT3lVnKwlbX5hT4G5MDNxzqQKBgQDLo/5Dyd9qj/dEax8vEAakSoVTFcDtTqdO\n1B9+gMOWbGoU3bTO9OQU5ktXZQAQgIIfN4/fRBfmhxFnDKUOGTTsS2h6RhmySXFa\nEtEP+1I+xKqkjnXvy5st926kHKoFpUBgKD7XN80Wa+UeB2Yu8M+eP6BXhLCdalR5\nMjhPiGzxhwKBgErNVKO75myEA6qBYYnbP2V53KH0Vf69gJADzL49iOoF+gRb+MT1\ntoZqBTJRpf4K44E5CNdzAtpRDmOGIgG2QwT2wagCyON1pw0qAC1YyulhpBHzhepl\niaXXkI4708IEcl5GH+NKecFPt6tw6Q4Ulyh8/G7hc0SBX6RHsUCHAoVxAoGAKyNb\nSorqHA3RSJoUqgiQD5+FrLsP+nVN9eHzpf2q8SOYOUFZ+vlfk5nRXfsUT2qZpflE\nLfyjv37fTeAc2ua2ElRLFpPg/6aVL4qK5QLNQmSw7VkMXLbZ8ZvXwUYdMkL2Zyg/\nX6H/fP9wMrNIjysOICzET6XZMA+FQ4NC8H4q7eMCgYEA1tqoRkgww5aN0QxvZ43q\nwEyqONAVZSTFPRIGqkKvnG/CUaB1M0Q3ckJB/WnGun6OmtLZIrb1OTYTvnfXq2YO\ni1RMdwOmwN+q4V4wn5KGxyd6rLaBhWAK9iFLmue0/jyaR7GX9HbLp+DQBRg2HmeQ\ndgnRO3EkFpi/0c7ieKJFdlI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "account@amazing-jetty-300200.iam.gserviceaccount.com",
+  "client_id": "105138998217144554567",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/account%40amazing-jetty-300200.iam.gserviceaccount.com"
+}

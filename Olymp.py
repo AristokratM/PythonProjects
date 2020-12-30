@@ -33,7 +33,24 @@ def G():
     print(abs(lst[0]))
 
 
-import os
 import json
-for key in os.environ:
-    print(key, os.environ[key])
+s = """
+{
+    "request":
+        [
+        {
+            "name":"Oleh"
+        },
+        {
+            "name":"BOB",
+            "id":"1"
+        }
+        ]
+}
+"""
+dict = json.loads(s)
+print(dict)
+new_json = json.dumps(dict, indent=4)
+with open("my_json", "w") as file:
+    json.dump(new_json, file, indent=3)
+print(type(new_json))
